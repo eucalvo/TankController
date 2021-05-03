@@ -1,5 +1,5 @@
 <map id="NumCollectorState" name="NumCollectorState">
-<area shape="rect" id="node1" title=" " alt="" coords="120,309,252,336"/>
+<area shape="rect" id="node1" title=" " alt="" coords="120,335,252,361"/>
 <area shape="rect" id="node3" href="$classEnablePID.html" title=" " alt="" coords="339,5,421,32"/>
 <area shape="rect" id="node4" href="$classPHCalibrationHigh.html" title=" " alt="" coords="315,56,445,83"/>
 <area shape="rect" id="node5" href="$classPHCalibrationLow.html" title=" " alt="" coords="317,107,443,133"/>
@@ -13,5 +13,6 @@
 <area shape="rect" id="node13" href="$classSetTankID.html" title=" " alt="" coords="338,512,422,539"/>
 <area shape="rect" id="node14" href="$classSetTempSetPoint.html" title=" " alt="" coords="317,563,443,589"/>
 <area shape="rect" id="node15" href="$classSetTime.html" title=" " alt="" coords="345,613,415,640"/>
-<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="5,309,72,336"/>
+<area shape="rect" id="node16" href="$classTemperatureCalibration.html" title=" " alt="" coords="302,664,458,691"/>
+<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="5,335,72,361"/>
 </map>
