@@ -1,8 +1,5 @@
 <map id="SeeTankID" name="SeeTankID">
-<area shape="rect" id="node1" title=" " alt="" coords="5,185,92,212"/>
-<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="59,81,126,108"/>
-<area shape="rect" id="node3" href="$classTankControllerLib.html" title=" " alt="" coords="143,185,267,212"/>
-<area shape="rect" id="node4" href="$classSerial__TC.html" title=" " alt="" coords="169,81,248,108"/>
-<area shape="rect" id="node5" href="$classLiquidCrystal__TC.html" title=" " alt="" coords="356,81,477,108"/>
-<area shape="rect" id="node6" title=" " alt="" coords="368,5,465,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,109,92,136"/>
+<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="59,5,126,32"/>
+<area shape="rect" id="node3" href="$classTankControllerLib.html" title=" " alt="" coords="117,109,241,136"/>
 </map>
