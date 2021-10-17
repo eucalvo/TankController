@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_1185',['README',['../md_other_README.html',1,'(Global Namespace)'],['../md_README.html',1,'(Global Namespace)']]]
+  ['libraries_1225',['Libraries',['../md_docs_libraries.html',1,'']]]
 ];

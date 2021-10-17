@@ -77,7 +77,7 @@ $(function() {
 , <a class="el" href="classPushingBox.html#abba2f28655a475c59c58f3db22974ab7">PushingBox</a>
 , <a class="el" href="classSD__TC.html#aff882f758ae1bc6cdba7228999c92059">SD_TC</a>
 , <a class="el" href="classSerial__TC.html#a7a4d52bd1cf6e84dd3cb8d5327b0760a">Serial_TC</a>
-, <a class="el" href="classTankControllerLib.html#a9ed307a5bc670acdefa6faa2f6eb496c">TankControllerLib</a>
+, <a class="el" href="classTankController.html#ac00686db3b693de7adb699600fc23ce2">TankController</a>
 , <a class="el" href="classTemperatureControl.html#a14b32b1a0bf142fb2d3f767e8ae1989e">TemperatureControl</a>
 , <a class="el" href="classTempProbe__TC.html#a46671f95763b065eee44c842fe475fa5">TempProbe_TC</a>
 </li>
@@ -91,6 +91,9 @@ $(function() {
 <li>AMPLITUDE_ADDRESS
 : <a class="el" href="classEEPROM__TC.html#a49a525c43cfd1b75238732b799af494b">EEPROM_TC</a>
 </li>
+<li>app
+: <a class="el" href="classTankController.html#a835b03cb73727576296569b44e614216">TankController</a>
+</li>
 </ul>
 
 
@@ -98,12 +101,22 @@ $(function() {
 <li>border
 : <a class="el" href="classTankController_1_1TankController.html#a75fa7ca82a0e9f260f8fb01ac9cf5091">TankController.TankController</a>
 </li>
+<li>buffer
+: <a class="el" href="classEthernetServer__TC.html#a15c1dd0a196fa97a81e11d888fce784f">EthernetServer_TC</a>
+</li>
+<li>bufferContentsSize
+: <a class="el" href="classEthernetServer__TC.html#a06452a07678e3360be53ecbbb1d3080d">EthernetServer_TC</a>
+</li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>client
-: <a class="el" href="classPushingBox.html#a2e84205ce62a559583497efcab5a1733">PushingBox</a>
+: <a class="el" href="classEthernetServer__TC.html#a81bd7a7926a84c394945efe331080dd1">EthernetServer_TC</a>
+, <a class="el" href="classPushingBox.html#a2e84205ce62a559583497efcab5a1733">PushingBox</a>
+</li>
+<li>connectedAt
+: <a class="el" href="classEthernetServer__TC.html#a299d465535d07f2006988968bd3413ca">EthernetServer_TC</a>
 </li>
 <li>correction
 : <a class="el" href="classTempProbe__TC.html#a127095a2268cfa2959db1a2a6d9ccefb">TempProbe_TC</a>
@@ -184,17 +197,16 @@ $(function() {
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>IDLE_TIMEOUT
-: <a class="el" href="classTankControllerLib.html#adea07d3c806495972cbec2eecdedef1c">TankControllerLib</a>
+: <a class="el" href="classTankController.html#aa554579a2fafb8bb6bec7005a2c33086">TankController</a>
 </li>
 <li>input
 : <a class="el" href="classPID__TC.html#a47e9d797d772536ca3d90ca1645e5ef3">PID_TC</a>
 </li>
-<li>IO_PIN
-: <a class="el" href="classEthernet__TC.html#a445a3239a130253dc54d9320d8e22662">Ethernet_TC</a>
-, <a class="el" href="classSD__TC.html#af85bebf1ba089f1a97b20527adaf0d90">SD_TC</a>
-</li>
 <li>IP
 : <a class="el" href="classEthernet__TC.html#a542a0c5eb0c0e90741b3ae16dde7366f">Ethernet_TC</a>
+</li>
+<li>isUsingDHCP
+: <a class="el" href="classEthernet__TC.html#abba52d3d25e6d3b0f6f88bf8323a1d19">Ethernet_TC</a>
 </li>
 </ul>
 
@@ -217,7 +229,7 @@ $(function() {
 : <a class="el" href="classKeypad__TC.html#a9889d8b966c3c32b084de141d68e7bb0">Keypad_TC</a>
 </li>
 <li>lastKeypadTime
-: <a class="el" href="classTankControllerLib.html#a570a2b446c86b3f7317b9be0006a320d">TankControllerLib</a>
+: <a class="el" href="classTankController.html#ad9b33de701c9b753e8fdc2cd109f38d2">TankController</a>
 </li>
 <li>lastSwitchMS
 : <a class="el" href="classPHControl.html#a26d86c769ef5c8d2c9b49e09425caea0">PHControl</a>
@@ -226,8 +238,8 @@ $(function() {
 <li>lastTime
 : <a class="el" href="classTempProbe__TC.html#a337ba3feaf0160156ddc31bfbeaa73ef">TempProbe_TC</a>
 </li>
-<li>LEASE_INTERVAL
-: <a class="el" href="classEthernet__TC.html#a1a2984ed1db3507788e407a43d123991">Ethernet_TC</a>
+<li>lastWarnMS
+: <a class="el" href="classPHControl.html#a95fd419884d38616ec5cbab82127c237">PHControl</a>
 </li>
 <li>level1
 : <a class="el" href="classMainMenu.html#a6b7ffd1cc6c0cedf91ac7a680164acac">MainMenu</a>
@@ -256,11 +268,14 @@ $(function() {
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>nextSendTime
-: <a class="el" href="classPushingBox.html#ac273795dee3006d64f4c52382dbc6cf2">PushingBox</a>
+: <a class="el" href="classPushingBox.html#a96ea2f413495be63842dae73c2b6b51e">PushingBox</a>
 </li>
 <li>nextState
-: <a class="el" href="classTankControllerLib.html#afe9e51e78094c40ef903c7072e53a5aa">TankControllerLib</a>
+: <a class="el" href="classTankController.html#ae5a67cee72a575a83bc8ecb3edd2e5ce">TankController</a>
 , <a class="el" href="classWait.html#a6a0825cabb3b18817950543bc882bac8">Wait</a>
+</li>
+<li>None
+: <a class="el" href="classTankController.html#a556d625830ff911c6c09dd2affc2f992">TankController</a>
 </li>
 <li>NUM_VALUES
 : <a class="el" href="classSetTime.html#a485e08c46022b03265252865975b3e26">SetTime</a>
@@ -275,9 +290,6 @@ $(function() {
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
-<li>onTime
-: <a class="el" href="classPHControl.html#a0b55a1a745d594b466db60546f5e55e7">PHControl</a>
-</li>
 <li>output
 : <a class="el" href="classPID__TC.html#a601a013d338c237b514a042b80f851e2">PID_TC</a>
 </li>
@@ -290,6 +302,9 @@ $(function() {
 </li>
 <li>PH_ADDRESS
 : <a class="el" href="classEEPROM__TC.html#a1604817b4087ce90d37a43cc9f08432f">EEPROM_TC</a>
+</li>
+<li>PH_CONTROL_PIN
+: <a class="el" href="classPHControl.html#a7543d86ce3f12d6d3525b152c809301a">PHControl</a>
 </li>
 <li>PH_DELAY_ADDRESS
 : <a class="el" href="classEEPROM__TC.html#ae48959adceb8b992358c28f66373e59b">EEPROM_TC</a>
@@ -306,22 +321,11 @@ $(function() {
 <li>phProbe
 : <a class="el" href="classTankController_1_1TankController.html#aa7944947a152b753d82f153a72cfc995">TankController.TankController</a>
 </li>
-<li>PIN
-: <a class="el" href="classPHControl.html#acfefbaf8d217ac1352f578cb2cd5619b">PHControl</a>
-, <a class="el" href="classTemperatureControl.html#ae3cf0fbf4bae06bc852ca932c65fb5c4">TemperatureControl</a>
-</li>
 <li>pins
 : <a class="el" href="classTankController_1_1TankController.html#ad1ae40fa297a68534867c2c6105ffe10">TankController.TankController</a>
 </li>
-<li>pinValue
-: <a class="el" href="classPHControl.html#af38b22947f3063d99dc9c9d786dfc6d3">PHControl</a>
-, <a class="el" href="classTemperatureControl.html#a4c0c7f58dddeb6e8490d1db48a84d466">TemperatureControl</a>
-</li>
 <li>pPID
 : <a class="el" href="classPID__TC.html#aaacc056114353ff7b409d0af3027023d">PID_TC</a>
-</li>
-<li>previous_lease
-: <a class="el" href="classEthernet__TC.html#a248ddfcd35126560eeb7f697cac8109c">Ethernet_TC</a>
 </li>
 <li>previousMillis
 : <a class="el" href="classChiller.html#ab2bde82ea9bf460799cb494d12ffc2f1">Chiller</a>
@@ -330,7 +334,7 @@ $(function() {
 : <a class="el" href="classSerial__TC.html#a7aed1bfa6c14ad04e2752482d6dca3c7">Serial_TC</a>
 </li>
 <li>prompts
-: <a class="el" href="classSetTime.html#a0edff0feadfdc3fe1e91708ac068beaa">SetTime</a>
+: <a class="el" href="classSetTime.html#ac5bd14b4ee59bdb861db4068df680fca">SetTime</a>
 </li>
 <li>puppetPad
 : <a class="el" href="classKeypad__TC.html#ac796aa7e46b5dc6ec79bcd5e9381a4c0">Keypad_TC</a>
@@ -349,8 +353,12 @@ $(function() {
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>SELECT_PIN
-: <a class="el" href="classSD__TC.html#a8074cbb9f4c5f1cacba11e0c828cf468">SD_TC</a>
+<li>sd
+: <a class="el" href="classSD__TC.html#a4ade6f768356267fa36dffa2e2b76bcc">SD_TC</a>
+</li>
+<li>SD_SELECT_PIN
+: <a class="el" href="classEthernet__TC.html#a0759590a755238474d8f30ae5f41c3c5">Ethernet_TC</a>
+, <a class="el" href="classSD__TC.html#a2adad824869c170e73e354f9c7182268">SD_TC</a>
 </li>
 <li>serial0
 : <a class="el" href="classTankController_1_1TankController.html#acb55ce8d277f8c99f747e490e054ef44">TankController.TankController</a>
@@ -365,10 +373,10 @@ $(function() {
 : <a class="el" href="classPID__TC.html#aa2d58f4fba800613a7c60cd9cd1f63fd">PID_TC</a>
 </li>
 <li>setMenus
-: <a class="el" href="classMainMenu.html#aa0a9703916169bb4573a91e8a98bae60">MainMenu</a>
+: <a class="el" href="classMainMenu.html#af3b3248277a867617a67536053cba583">MainMenu</a>
 </li>
 <li>slopeResponse
-: <a class="el" href="classPHProbe.html#abf04b935ac5a398966e000e35fed275c">PHProbe</a>
+: <a class="el" href="classPHProbe.html#ae67c2cdbf1e91fe8d3ab7476d40276ea">PHProbe</a>
 </li>
 <li>SOLENOID_OPENING_TIME
 : <a class="el" href="classPHControl.html#a9889c4c4231282bf3a2010a9e002c3bf">PHControl</a>
@@ -377,7 +385,8 @@ $(function() {
 : <a class="el" href="classSeePIDConstants.html#a9ca612aae5f956cd7860c58daeba400b">SeePIDConstants</a>
 </li>
 <li>state
-: <a class="el" href="classTankControllerLib.html#a3d4fbc274d0f8b73eb612e287b587c14">TankControllerLib</a>
+: <a class="el" href="classEthernetServer__TC.html#aa354d90ad8d3dec2db2484457322a967">EthernetServer_TC</a>
+, <a class="el" href="classTankController.html#a3267a62af077763bccee70472f821fae">TankController</a>
 </li>
 <li>subState
 : <a class="el" href="classSetTime.html#aa3c588651c9a95d7b6d84529250924d3">SetTime</a>
@@ -396,10 +405,13 @@ $(function() {
 : <a class="el" href="classTemperatureControl.html#a99620112bb2a668c796650ac121d5cfd">TemperatureControl</a>
 </li>
 <li>tc
-: <a class="el" href="classUIState.html#a357d1e91ae55a8beda87b51cfc9a7d75">UIState</a>
+: <a class="el" href="classUIState.html#ae24689f8e1264d671c569ee4c3cc5f51">UIState</a>
 </li>
 <li>TEMP_ADDRESS
 : <a class="el" href="classEEPROM__TC.html#a346f10e7ce20c72e1ddce8b373b49af0">EEPROM_TC</a>
+</li>
+<li>TEMP_CONTROL_PIN
+: <a class="el" href="classTemperatureControl.html#a53f72dbcfcc624d9ccc7b0cbe314b44c">TemperatureControl</a>
 </li>
 <li>TEMP_CORR_ADDRESS
 : <a class="el" href="classEEPROM__TC.html#accf1bfee24d8bccfe429534c479955c8">EEPROM_TC</a>
@@ -428,6 +440,9 @@ $(function() {
 <li>timer
 : <a class="el" href="classTankController_1_1TankController.html#a45c0c48700c612466c5329cb18927ccd">TankController.TankController</a>
 </li>
+<li>title
+: <a class="el" href="classTankController.html#a0367f98ba9ccd3d3f6b1efc36a0eabe4">TankController</a>
+</li>
 </ul>
 
 
@@ -447,7 +462,7 @@ $(function() {
 : <a class="el" href="classSetTime.html#af18dd9f392689631b00910eadc5463c9">SetTime</a>
 </li>
 <li>viewMenus
-: <a class="el" href="classMainMenu.html#adfd2f374832b29433159c9f1e13251f4">MainMenu</a>
+: <a class="el" href="classMainMenu.html#aa118ecd8ffcd77c5ef843bb43b156cdb">MainMenu</a>
 </li>
 </ul>
 
@@ -456,9 +471,6 @@ $(function() {
 <li>WINDOW_SIZE
 : <a class="el" href="classPHControl.html#a4c518c84fdbbb8b423bd2947741e29cc">PHControl</a>
 , <a class="el" href="classPID__TC.html#aa10540e9a6091abbf6e2a2582a5139ab">PID_TC</a>
-</li>
-<li>window_start_time
-: <a class="el" href="classPHControl.html#a3f923d6f017e2536f90205fcc1812cfe">PHControl</a>
 </li>
 </ul>
 </div><!-- contents -->
