@@ -8,7 +8,7 @@ var searchData=
   ['clear_23',['clear',['../classNumCollectorState.html#a8e9678c3d38e0b079c90fe7f5418812d',1,'NumCollectorState']]],
   ['clearcalibration_24',['clearCalibration',['../classPHProbe.html#a528afbeb70d3a47989603faff2d00571',1,'PHProbe']]],
   ['clearfault_25',['clearFault',['../classTempProbe__TC.html#ac3a3b9696d8d8c2d14531f6de763d877',1,'TempProbe_TC']]],
-  ['clearinstance_26',['clearInstance',['../classPHControl.html#acdab2fe83f389ca46d04a277a07c3eb0',1,'PHControl']]],
+  ['clearinstance_26',['clearInstance',['../classPHControl.html#acdab2fe83f389ca46d04a277a07c3eb0',1,'PHControl::clearInstance()'],['../classTemperatureControl.html#a7724ca5bca684b7cd272c4198469591b',1,'TemperatureControl::clearInstance()']]],
   ['client_27',['client',['../classPushingBox.html#a2e84205ce62a559583497efcab5a1733',1,'PushingBox::client()'],['../classEthernetServer__TC.html#a81bd7a7926a84c394945efe331080dd1',1,'EthernetServer_TC::client()']]],
   ['code_5fof_5fconduct_2emd_28',['CODE_OF_CONDUCT.md',['../CODE__OF__CONDUCT_8md.html',1,'']]],
   ['col_5fpins_29',['COL_PINS',['../Keypad__TC_8cpp.html#ab665db2d27267998267004e40c3f7ca4',1,'Keypad_TC.cpp']]],
@@ -23,5 +23,6 @@ var searchData=
   ['correction_38',['correction',['../classTempProbe__TC.html#a127095a2268cfa2959db1a2a6d9ccefb',1,'TempProbe_TC']]],
   ['cout_39',['COUT',['../TC__util_8h.html#a051dcff3fa35db18fbabb4fde1bd1167',1,'TC_util.h']]],
   ['current_40',['current',['../classSetTime.html#ac083602003b807975f76b95028f7843b',1,'SetTime']]],
-  ['currentphtarget_41',['currentPHTarget',['../classPHControl.html#a8604ac3b672176a8dd6b1c89234fcccb',1,'PHControl']]]
+  ['currentphtarget_41',['currentPHTarget',['../classPHControl.html#a8604ac3b672176a8dd6b1c89234fcccb',1,'PHControl']]],
+  ['currenttemperaturetarget_42',['currentTemperatureTarget',['../classTemperatureControl.html#aa9ce4a0442a12c215ecef17f57bbaa2d',1,'TemperatureControl']]]
 ];
