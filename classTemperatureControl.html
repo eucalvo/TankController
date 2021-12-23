@@ -102,10 +102,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8a88e4018b9306a9ae568c3d6472a686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac72e4e362c7321af8ab2734b4dbc1719"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#ac72e4e362c7321af8ab2734b4dbc1719">getCurrentTemperatureTarget</a> ()</td></tr>
 <tr class="separator:ac72e4e362c7321af8ab2734b4dbc1719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b438f6721156b1ebc22c4cc21b9e24"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#a19b438f6721156b1ebc22c4cc21b9e24">getRampTimeStart</a> ()</td></tr>
-<tr class="separator:a19b438f6721156b1ebc22c4cc21b9e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11015d6549f1f3930d38c823d9b97c8c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#a11015d6549f1f3930d38c823d9b97c8c">getRampTimeEnd</a> ()</td></tr>
-<tr class="separator:a11015d6549f1f3930d38c823d9b97c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9e017a5af7d656e724e78da377d3f3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#a5f9e017a5af7d656e724e78da377d3f3">getPhRampTimeStart</a> ()</td></tr>
+<tr class="separator:a5f9e017a5af7d656e724e78da377d3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6203dae9455dda53f02d2a48b46ce13f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#a6203dae9455dda53f02d2a48b46ce13f">getPhRampTimeEnd</a> ()</td></tr>
+<tr class="separator:a6203dae9455dda53f02d2a48b46ce13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90ff7ff465a1fd0cf05778c1283631b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#aa90ff7ff465a1fd0cf05778c1283631b">isHeater</a> ()</td></tr>
 <tr class="separator:aa90ff7ff465a1fd0cf05778c1283631b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a355ba7008c072aed6f7864b084c19235"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemperatureControl.html#a355ba7008c072aed6f7864b084c19235">isOn</a> ()</td></tr>
@@ -216,14 +216,14 @@ Static Private Attributes</h2></td></tr>
 <div class="ttc" id="aTC__util_8h_html_a051dcff3fa35db18fbabb4fde1bd1167"><div class="ttname"><a href="TC__util_8h.html#a051dcff3fa35db18fbabb4fde1bd1167">COUT</a></div><div class="ttdeci">#define COUT(x)</div><div class="ttdef"><b>Definition:</b> <a href="TC__util_8h_source.html#l00019">TC_util.h:19</a></div></div>
 <div class="ttc" id="aTankController_8h_html_af1395b3b786599e1f6ccf55cb73d9f4b"><div class="ttname"><a href="TankController_8h.html#af1395b3b786599e1f6ccf55cb73d9f4b">TURN_SOLENOID_OFF</a></div><div class="ttdeci">#define TURN_SOLENOID_OFF</div><div class="ttdef"><b>Definition:</b> <a href="TankController_8h_source.html#l00006">TankController.h:6</a></div></div>
 <div class="ttc" id="aTemperatureControl_8cpp_html_a6827887f6f2c2fa55cae19e1ff3b7c80"><div class="ttname"><a href="TemperatureControl_8cpp.html#a6827887f6f2c2fa55cae19e1ff3b7c80">DEFAULT_TEMPERATURE</a></div><div class="ttdeci">const float DEFAULT_TEMPERATURE</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8cpp_source.html#l00009">TemperatureControl.cpp:9</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a1774fcc8f073280946d4b360471ddb66"><div class="ttname"><a href="classEEPROM__TC.html#a1774fcc8f073280946d4b360471ddb66">EEPROM_TC::setRampTimeStartTemp</a></div><div class="ttdeci">void setRampTimeStartTemp(uint32_t value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00207">EEPROM_TC.cpp:207</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a1e91009e8b037b8a3aa4f2358b690382"><div class="ttname"><a href="classEEPROM__TC.html#a1e91009e8b037b8a3aa4f2358b690382">EEPROM_TC::getRampTimeEndTemp</a></div><div class="ttdeci">uint32_t getRampTimeEndTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00123">EEPROM_TC.cpp:123</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a277102c91503a59ad8a654887a06df8e"><div class="ttname"><a href="classEEPROM__TC.html#a277102c91503a59ad8a654887a06df8e">EEPROM_TC::setRampTimeEndTemp</a></div><div class="ttdeci">void setRampTimeEndTemp(uint32_t value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00210">EEPROM_TC.cpp:210</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a3d8077ecb2fdfff827b8401baa90c17d"><div class="ttname"><a href="classEEPROM__TC.html#a3d8077ecb2fdfff827b8401baa90c17d">EEPROM_TC::setTemp</a></div><div class="ttdeci">void setTemp(float value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00219">EEPROM_TC.cpp:219</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a46f3a19386dbe34a8cb08aa443a77bbe"><div class="ttname"><a href="classEEPROM__TC.html#a46f3a19386dbe34a8cb08aa443a77bbe">EEPROM_TC::getRampStartingTemp</a></div><div class="ttdeci">float getRampStartingTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00126">EEPROM_TC.cpp:126</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_a8ecad781d5e7414d8586e0fd3ffcead6"><div class="ttname"><a href="classEEPROM__TC.html#a8ecad781d5e7414d8586e0fd3ffcead6">EEPROM_TC::getRampTimeStartTemp</a></div><div class="ttdeci">uint32_t getRampTimeStartTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00120">EEPROM_TC.cpp:120</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a1774fcc8f073280946d4b360471ddb66"><div class="ttname"><a href="classEEPROM__TC.html#a1774fcc8f073280946d4b360471ddb66">EEPROM_TC::setRampTimeStartTemp</a></div><div class="ttdeci">void setRampTimeStartTemp(uint32_t value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00228">EEPROM_TC.cpp:228</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a1e91009e8b037b8a3aa4f2358b690382"><div class="ttname"><a href="classEEPROM__TC.html#a1e91009e8b037b8a3aa4f2358b690382">EEPROM_TC::getRampTimeEndTemp</a></div><div class="ttdeci">uint32_t getRampTimeEndTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00132">EEPROM_TC.cpp:132</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a277102c91503a59ad8a654887a06df8e"><div class="ttname"><a href="classEEPROM__TC.html#a277102c91503a59ad8a654887a06df8e">EEPROM_TC::setRampTimeEndTemp</a></div><div class="ttdeci">void setRampTimeEndTemp(uint32_t value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00231">EEPROM_TC.cpp:231</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a3d8077ecb2fdfff827b8401baa90c17d"><div class="ttname"><a href="classEEPROM__TC.html#a3d8077ecb2fdfff827b8401baa90c17d">EEPROM_TC::setTemp</a></div><div class="ttdeci">void setTemp(float value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00243">EEPROM_TC.cpp:243</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a46f3a19386dbe34a8cb08aa443a77bbe"><div class="ttname"><a href="classEEPROM__TC.html#a46f3a19386dbe34a8cb08aa443a77bbe">EEPROM_TC::getRampStartingTemp</a></div><div class="ttdeci">float getRampStartingTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00135">EEPROM_TC.cpp:135</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a8ecad781d5e7414d8586e0fd3ffcead6"><div class="ttname"><a href="classEEPROM__TC.html#a8ecad781d5e7414d8586e0fd3ffcead6">EEPROM_TC::getRampTimeStartTemp</a></div><div class="ttdeci">uint32_t getRampTimeStartTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00129">EEPROM_TC.cpp:129</a></div></div>
 <div class="ttc" id="aclassEEPROM__TC_html_abbfd37647f8204f6af70ed14ee2e439a"><div class="ttname"><a href="classEEPROM__TC.html#abbfd37647f8204f6af70ed14ee2e439a">EEPROM_TC::instance</a></div><div class="ttdeci">static EEPROM_TC * instance()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC.cpp:14</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_af5e2bc74a8ecb4f4954ee07ef1708c9c"><div class="ttname"><a href="classEEPROM__TC.html#af5e2bc74a8ecb4f4954ee07ef1708c9c">EEPROM_TC::getTemp</a></div><div class="ttdeci">float getTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00132">EEPROM_TC.cpp:132</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_af5e2bc74a8ecb4f4954ee07ef1708c9c"><div class="ttname"><a href="classEEPROM__TC.html#af5e2bc74a8ecb4f4954ee07ef1708c9c">EEPROM_TC::getTemp</a></div><div class="ttdeci">float getTemp()</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00144">EEPROM_TC.cpp:144</a></div></div>
 <div class="ttc" id="aclassTemperatureControl_html_a19a5eb73d2a5524b344e1849872243ed"><div class="ttname"><a href="classTemperatureControl.html#a19a5eb73d2a5524b344e1849872243ed">TemperatureControl::rampStartingTemp</a></div><div class="ttdeci">float rampStartingTemp</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8h_source.html#l00022">TemperatureControl.h:22</a></div></div>
 <div class="ttc" id="aclassTemperatureControl_html_a3e898d40af3d7dc6bd5ca4af7260a9e0"><div class="ttname"><a href="classTemperatureControl.html#a3e898d40af3d7dc6bd5ca4af7260a9e0">TemperatureControl::rampTimeStart</a></div><div class="ttdeci">uint32_t rampTimeStart</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8h_source.html#l00023">TemperatureControl.h:23</a></div></div>
 <div class="ttc" id="aclassTemperatureControl_html_a53f72dbcfcc624d9ccc7b0cbe314b44c"><div class="ttname"><a href="classTemperatureControl.html#a53f72dbcfcc624d9ccc7b0cbe314b44c">TemperatureControl::TEMP_CONTROL_PIN</a></div><div class="ttdeci">const uint16_t TEMP_CONTROL_PIN</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8h_source.html#l00017">TemperatureControl.h:17</a></div></div>
@@ -231,7 +231,7 @@ Static Private Attributes</h2></td></tr>
 <div class="ttc" id="aclassTemperatureControl_html_a99620112bb2a668c796650ac121d5cfd"><div class="ttname"><a href="classTemperatureControl.html#a99620112bb2a668c796650ac121d5cfd">TemperatureControl::targetTemperature</a></div><div class="ttdeci">float targetTemperature</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8h_source.html#l00020">TemperatureControl.h:20</a></div></div>
 <div class="ttc" id="aclassTemperatureControl_html_aa90ff7ff465a1fd0cf05778c1283631b"><div class="ttname"><a href="classTemperatureControl.html#aa90ff7ff465a1fd0cf05778c1283631b">TemperatureControl::isHeater</a></div><div class="ttdeci">virtual bool isHeater()</div><div class="ttdef"><b>Definition:</b> <a href="TemperatureControl_8cpp_source.html#l00106">TemperatureControl.cpp:106</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="TC__util_8h_source.html#l00019">COUT</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00009">DEFAULT_TEMPERATURE</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00126">EEPROM_TC::getRampStartingTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00123">EEPROM_TC::getRampTimeEndTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00120">EEPROM_TC::getRampTimeStartTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00132">EEPROM_TC::getTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00106">isHeater()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00022">rampStartingTemp</a>, <a class="el" href="TemperatureControl_8h_source.html#l00024">rampTimeEnd</a>, <a class="el" href="TemperatureControl_8h_source.html#l00023">rampTimeStart</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00210">EEPROM_TC::setRampTimeEndTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00207">EEPROM_TC::setRampTimeStartTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00219">EEPROM_TC::setTemp()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00020">targetTemperature</a>, <a class="el" href="TemperatureControl_8h_source.html#l00017">TEMP_CONTROL_PIN</a>, and <a class="el" href="TankController_8h_source.html#l00006">TURN_SOLENOID_OFF</a>.</p>
+<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="TC__util_8h_source.html#l00019">COUT</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00009">DEFAULT_TEMPERATURE</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00135">EEPROM_TC::getRampStartingTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00132">EEPROM_TC::getRampTimeEndTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00129">EEPROM_TC::getRampTimeStartTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00144">EEPROM_TC::getTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00106">isHeater()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00022">rampStartingTemp</a>, <a class="el" href="TemperatureControl_8h_source.html#l00024">rampTimeEnd</a>, <a class="el" href="TemperatureControl_8h_source.html#l00023">rampTimeStart</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00231">EEPROM_TC::setRampTimeEndTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00228">EEPROM_TC::setRampTimeStartTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00243">EEPROM_TC::setTemp()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00020">targetTemperature</a>, <a class="el" href="TemperatureControl_8h_source.html#l00017">TEMP_CONTROL_PIN</a>, and <a class="el" href="TankController_8h_source.html#l00006">TURN_SOLENOID_OFF</a>.</p>
 
 </div>
 </div>
@@ -339,9 +339,9 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="Serial__TC_8cpp.html#a822c3c9e2647d480c6ea4b4d29f77afb">serial</a>(<a class="code" href="DateTime__TC_8cpp.html#a5819dbc2d305e99e930c734a0d28bc3b">buffer</a>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="ttc" id="aclassEEPROM__TC_html_a66c76de24541997f135fc4c25461c23e"><div class="ttname"><a href="classEEPROM__TC.html#a66c76de24541997f135fc4c25461c23e">EEPROM_TC::setHeat</a></div><div class="ttdeci">void setHeat(bool value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00163">EEPROM_TC.cpp:163</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_a66c76de24541997f135fc4c25461c23e"><div class="ttname"><a href="classEEPROM__TC.html#a66c76de24541997f135fc4c25461c23e">EEPROM_TC::setHeat</a></div><div class="ttdeci">void setHeat(bool value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00175">EEPROM_TC.cpp:175</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="TemperatureControl_8h_source.html#l00014">_instance</a>, <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00106">isHeater()</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, and <a class="el" href="EEPROM__TC_8cpp_source.html#l00163">EEPROM_TC::setHeat()</a>.</p>
+<p class="reference">References <a class="el" href="TemperatureControl_8h_source.html#l00014">_instance</a>, <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00106">isHeater()</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, and <a class="el" href="EEPROM__TC_8cpp_source.html#l00175">EEPROM_TC::setHeat()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="SetChillOrHeat_8cpp_source.html#l00015">SetChillOrHeat::setValue()</a>, <a class="el" href="TemperatureControlTest_8cpp_source.html#l00039">unittest()</a>, and <a class="el" href="MenuTest_8cpp_source.html#l00026">unittest_setup()</a>.</p>
 
@@ -382,8 +382,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a11015d6549f1f3930d38c823d9b97c8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11015d6549f1f3930d38c823d9b97c8c">&#9670;&nbsp;</a></span>getRampTimeEnd()</h2>
+<a id="a6203dae9455dda53f02d2a48b46ce13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6203dae9455dda53f02d2a48b46ce13f">&#9670;&nbsp;</a></span>getPhRampTimeEnd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,7 +392,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t TemperatureControl::getRampTimeEnd </td>
+          <td class="memname">uint32_t TemperatureControl::getPhRampTimeEnd </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -406,7 +406,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="TemperatureControl_8h_source.html#l00042">42</a> of file <a class="el" href="TemperatureControl_8h_source.html">TemperatureControl.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                            {</div>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                              {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classTemperatureControl.html#a75d39b953d0a5f84c39bbc189cab9399">rampTimeEnd</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  }</div>
 </div><!-- fragment -->
@@ -416,8 +416,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a19b438f6721156b1ebc22c4cc21b9e24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19b438f6721156b1ebc22c4cc21b9e24">&#9670;&nbsp;</a></span>getRampTimeStart()</h2>
+<a id="a5f9e017a5af7d656e724e78da377d3f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9e017a5af7d656e724e78da377d3f3">&#9670;&nbsp;</a></span>getPhRampTimeStart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,7 +426,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t TemperatureControl::getRampTimeStart </td>
+          <td class="memname">uint32_t TemperatureControl::getPhRampTimeStart </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -440,7 +440,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="TemperatureControl_8h_source.html#l00039">39</a> of file <a class="el" href="TemperatureControl_8h_source.html">TemperatureControl.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                              {</div>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classTemperatureControl.html#a3e898d40af3d7dc6bd5ca4af7260a9e0">rampTimeStart</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
 </div><!-- fragment -->
@@ -480,7 +480,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TemperatureControl_8h_source.html#l00020">targetTemperature</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00014">SetTempSetPoint::getCurrentValue()</a>, and <a class="el" href="MainMenu_8cpp_source.html#l00218">MainMenu::idle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00014">SetTempSetPoint::getCurrentValue()</a>, and <a class="el" href="MainMenu_8cpp_source.html#l00223">MainMenu::idle()</a>.</p>
 
 </div>
 </div>
@@ -524,7 +524,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TemperatureControl_8h_source.html#l00014">_instance</a>, and <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00014">SetTempSetPoint::getCurrentValue()</a>, <a class="el" href="MainMenu_8cpp_source.html#l00218">MainMenu::idle()</a>, <a class="el" href="SetChillOrHeat_8cpp_source.html#l00015">SetChillOrHeat::setValue()</a>, <a class="el" href="SetTempSetPoint_8cpp_source.html#l00024">SetTempSetPoint::setValue()</a>, <a class="el" href="TankController_8cpp_source.html#l00047">TankController::TankController()</a>, <a class="el" href="PushingBoxTest_8cpp_source.html#l00056">unittest()</a>, <a class="el" href="MenuTest_8cpp_source.html#l00026">unittest_setup()</a>, <a class="el" href="TankController_8cpp_source.html#l00212">TankController::updateControls()</a>, and <a class="el" href="TankController_8cpp_source.html#l00245">TankController::writeDataToSD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00014">SetTempSetPoint::getCurrentValue()</a>, <a class="el" href="MainMenu_8cpp_source.html#l00223">MainMenu::idle()</a>, <a class="el" href="SetChillOrHeat_8cpp_source.html#l00015">SetChillOrHeat::setValue()</a>, <a class="el" href="SetTempSetPoint_8cpp_source.html#l00024">SetTempSetPoint::setValue()</a>, <a class="el" href="TankController_8cpp_source.html#l00047">TankController::TankController()</a>, <a class="el" href="PushingBoxTest_8cpp_source.html#l00056">unittest()</a>, <a class="el" href="MenuTest_8cpp_source.html#l00026">unittest_setup()</a>, <a class="el" href="TankController_8cpp_source.html#l00212">TankController::updateControls()</a>, and <a class="el" href="TankController_8cpp_source.html#l00245">TankController::writeDataToSD()</a>.</p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="TemperatureControl_8cpp_source.html#l00039">enableHeater()</a>, <a class="el" href="MainMenu_8cpp_source.html#l00218">MainMenu::idle()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureControl_8cpp_source.html#l00039">enableHeater()</a>, <a class="el" href="MainMenu_8cpp_source.html#l00223">MainMenu::idle()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>.</p>
 
 </div>
 </div>
@@ -586,7 +586,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="TemperatureControl_8h_source.html#l00017">TEMP_CONTROL_PIN</a>, and <a class="el" href="TankController_8h_source.html#l00007">TURN_SOLENOID_ON</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MainMenu_8cpp_source.html#l00218">MainMenu::idle()</a>, and <a class="el" href="TemperatureControlTest_8cpp_source.html#l00076">unittest()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MainMenu_8cpp_source.html#l00223">MainMenu::idle()</a>, and <a class="el" href="TemperatureControlTest_8cpp_source.html#l00076">unittest()</a>.</p>
 
 </div>
 </div>
@@ -629,11 +629,11 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
 <div class="ttc" id="aclassDateTime__TC_html_ae1b05da93afda7c496482990198b14e1"><div class="ttname"><a href="classDateTime__TC.html#ae1b05da93afda7c496482990198b14e1">DateTime_TC::now</a></div><div class="ttdeci">static DateTime_TC now()</div><div class="ttdef"><b>Definition:</b> <a href="DateTime__TC_8cpp_source.html#l00031">DateTime_TC.cpp:31</a></div></div>
-<div class="ttc" id="aclassEEPROM__TC_html_ae2cf5b8751dca83c098d8272fb2bcb7e"><div class="ttname"><a href="classEEPROM__TC.html#ae2cf5b8751dca83c098d8272fb2bcb7e">EEPROM_TC::setRampStartingTemp</a></div><div class="ttdeci">void setRampStartingTemp(float value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00213">EEPROM_TC.cpp:213</a></div></div>
+<div class="ttc" id="aclassEEPROM__TC_html_ae2cf5b8751dca83c098d8272fb2bcb7e"><div class="ttname"><a href="classEEPROM__TC.html#ae2cf5b8751dca83c098d8272fb2bcb7e">EEPROM_TC::setRampStartingTemp</a></div><div class="ttdeci">void setRampStartingTemp(float value)</div><div class="ttdef"><b>Definition:</b> <a href="EEPROM__TC_8cpp_source.html#l00234">EEPROM_TC.cpp:234</a></div></div>
 <div class="ttc" id="aclassTempProbe__TC_html_a6c6ebd674045b13c2cb7f249c594f67b"><div class="ttname"><a href="classTempProbe__TC.html#a6c6ebd674045b13c2cb7f249c594f67b">TempProbe_TC::getRunningAverage</a></div><div class="ttdeci">float getRunningAverage()</div><div class="ttdef"><b>Definition:</b> <a href="TempProbe__TC_8h_source.html#l00102">TempProbe_TC.h:102</a></div></div>
 <div class="ttc" id="aclassTempProbe__TC_html_ab1ac81002f8d2e86564804755baca4e8"><div class="ttname"><a href="classTempProbe__TC.html#ab1ac81002f8d2e86564804755baca4e8">TempProbe_TC::instance</a></div><div class="ttdeci">static TempProbe_TC * instance()</div><div class="ttdef"><b>Definition:</b> <a href="TempProbe__TC_8cpp_source.html#l00018">TempProbe_TC.cpp:18</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="TempProbe__TC_8h_source.html#l00102">TempProbe_TC::getRunningAverage()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TempProbe__TC_8cpp_source.html#l00018">TempProbe_TC::instance()</a>, <a class="el" href="DateTime__TC_8cpp_source.html#l00031">DateTime_TC::now()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00022">rampStartingTemp</a>, <a class="el" href="TemperatureControl_8h_source.html#l00024">rampTimeEnd</a>, <a class="el" href="TemperatureControl_8h_source.html#l00023">rampTimeStart</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00213">EEPROM_TC::setRampStartingTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00210">EEPROM_TC::setRampTimeEndTemp()</a>, and <a class="el" href="EEPROM__TC_8cpp_source.html#l00207">EEPROM_TC::setRampTimeStartTemp()</a>.</p>
+<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="TempProbe__TC_8h_source.html#l00102">TempProbe_TC::getRunningAverage()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="TempProbe__TC_8cpp_source.html#l00018">TempProbe_TC::instance()</a>, <a class="el" href="DateTime__TC_8cpp_source.html#l00031">DateTime_TC::now()</a>, <a class="el" href="TemperatureControl_8h_source.html#l00022">rampStartingTemp</a>, <a class="el" href="TemperatureControl_8h_source.html#l00024">rampTimeEnd</a>, <a class="el" href="TemperatureControl_8h_source.html#l00023">rampTimeStart</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00234">EEPROM_TC::setRampStartingTemp()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00231">EEPROM_TC::setRampTimeEndTemp()</a>, and <a class="el" href="EEPROM__TC_8cpp_source.html#l00228">EEPROM_TC::setRampTimeStartTemp()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00024">SetTempSetPoint::setValue()</a>, and <a class="el" href="TemperatureControlTest_8cpp_source.html#l00183">unittest()</a>.</p>
 
@@ -670,7 +670,7 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00219">EEPROM_TC::setTemp()</a>, and <a class="el" href="TemperatureControl_8h_source.html#l00020">targetTemperature</a>.</p>
+<p class="reference">References <a class="el" href="DateTime__TC_8cpp_source.html#l00048">buffer</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00014">EEPROM_TC::instance()</a>, <a class="el" href="Serial__TC_8cpp_source.html#l00010">serial()</a>, <a class="el" href="EEPROM__TC_8cpp_source.html#l00243">EEPROM_TC::setTemp()</a>, and <a class="el" href="TemperatureControl_8h_source.html#l00020">targetTemperature</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="SetTempSetPoint_8cpp_source.html#l00024">SetTempSetPoint::setValue()</a>, <a class="el" href="PushingBoxTest_8cpp_source.html#l00056">unittest()</a>, and <a class="el" href="MenuTest_8cpp_source.html#l00026">unittest_setup()</a>.</p>
 
@@ -860,7 +860,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="TemperatureControl_8h_source.html#l00024">24</a> of file <a class="el" href="TemperatureControl_8h_source.html">TemperatureControl.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="TemperatureControl_8h_source.html#l00042">getRampTimeEnd()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00081">setRampDuration()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00179">Heater::updateControl()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00130">Chiller::updateControl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureControl_8h_source.html#l00042">getPhRampTimeEnd()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00081">setRampDuration()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00179">Heater::updateControl()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00130">Chiller::updateControl()</a>.</p>
 
 </div>
 </div>
@@ -886,7 +886,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="TemperatureControl_8h_source.html#l00023">23</a> of file <a class="el" href="TemperatureControl_8h_source.html">TemperatureControl.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="TemperatureControl_8h_source.html#l00039">getRampTimeStart()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00081">setRampDuration()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00179">Heater::updateControl()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00130">Chiller::updateControl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureControl_8h_source.html#l00039">getPhRampTimeStart()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00081">setRampDuration()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00054">TemperatureControl()</a>, <a class="el" href="TemperatureControl_8cpp_source.html#l00179">Heater::updateControl()</a>, and <a class="el" href="TemperatureControl_8cpp_source.html#l00130">Chiller::updateControl()</a>.</p>
 
 </div>
 </div>
